@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb://localhost:27017/link-shrotner'; 
+const mongoURI = 'mongodb://localhost:27017/link-shortner'; 
 
 const connectToMongo = () => {
    mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
