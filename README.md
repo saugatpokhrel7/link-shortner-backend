@@ -41,14 +41,9 @@ The server should now be running on http://localhost:5000
 
 ## API Endpoints
 Below are the available API endpoints for the Link Shortener backend:
-
-<<<<<<< HEAD
 POST /api/url/shorten: Shorten a long URL.
 GET /api/url/:shortCode: Redirect to the original long URL based on the provided short code. 
-=======
-### POST /api/url/shorten: Shorten a long URL.
-### GET /api/url/:shortCode: Redirect to the original long URL based on the provided short code. 
->>>>>>> 10154ed12ee2d82c3286af1ebf8f2148c216107b
+ 
 
 ## Contributing
 We welcome contributions to the Link Shortener backend. If you find any issues or have suggestions for improvement, please submit a pull request or open an issue on the GitHub repository.
